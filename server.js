@@ -61,4 +61,4 @@ app.post("/", async (req, res) => {
 //   }
 // });
 
-app.listen(PORT, () => console.log(`server is running on ${PORT}`));
+app.listen(Port || PORT, () => console.log(`server is running on ${Port}`));
